@@ -1,0 +1,19 @@
+{
+  "name": "discord-minimax-ttt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "tsc": "tsc",
+    "bot": "node .\\build\\index.js",
+    "tbot": "tsc && node .\\build\\index.js"
+  },
+  "keywords": [],
+  "author": "Witless",
+  "license": "ISC",
+  "dependencies": {
+    "discord.js": "^12.3.1",
+    "typescript": "^4.0.3"
+  }
+}
